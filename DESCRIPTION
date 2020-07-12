@@ -1,13 +1,14 @@
 Package: autodatadoc
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Example of automated data documentation for R packages
 Version: 0.1
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Example of automated data documentation for R packages showing how to store a data dictionary externally from R source code yet have it automatically synced with roxygen documentation.
+Depends:
+    R (>= 3.5.0)
+Suggets: tidyr
 License: GPL
 Encoding: UTF-8
 LazyData: true
 Authors@R: person("Joseph", "Stachelek", comment = c(ORCID = "0000-0002-5924-2464"), role = c("aut", "cre"), 
  email = "stachel2@msu.edu")
+RoxygenNote: 7.1.0

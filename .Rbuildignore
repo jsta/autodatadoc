@@ -1,2 +1,5 @@
+data-raw
+docs
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^README\.Rmd$
